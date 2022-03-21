@@ -1,0 +1,47 @@
+.button {
+    background: #DA0100;
+    border-radius: 35px;
+    padding: 18px 40px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #F5170E;
+    color: #fff;
+    transition: 0.6s;
+}
+.button_type_secondary {
+    color: #F5170E;
+    background: #fff;
+    padding: 17px 30px;
+    border: 1px solid #F5170E;
+}
+.button_type_secondary:hover {
+    background: #F5170E;
+    transition: 0.9s;
+}
+
+.button_type_third {
+    color: #F5170E;
+    background: #fff;
+    border: 1px solid #F5170E;
+}
+
+.button_type_third:hover {
+    background: #F5170E;
+    transition: 0.9s;
+}
+
+.button_type_fourth {
+    background: #8E8E8E;
+    color: #fff;
+}
+
+.button_type_fourth:hover {
+    background: 2B2B2B;
+    transition: 0.9s;
+}

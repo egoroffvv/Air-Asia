@@ -1,0 +1,22 @@
+.general-menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.general-menu__item--active .general-menu__link {
+    color: #DA0100;
+}
+
+.general-menu__item:last-child {
+    margin-right: 0;
+}
+
+.general-menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.general-menu__link:hover {
+    color: #DA0100;
+}

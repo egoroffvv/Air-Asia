@@ -1,0 +1,19 @@
+.logo-main {
+    display: block;
+    margin-right: 79px;
+}
+
+.logo-main__pic {
+    width: 85px;
+    height: 36px;
+}
+
+.logo-inner {
+    display: block;
+    margin-right: 79px;
+}
+
+.logo-inner__pic {
+    height: 42px;
+    width: 98px;
+}

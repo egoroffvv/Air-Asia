@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: url(../../img/bg/common.png);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smothing: grayscale;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,h2,h3,h4, p {
+    margin: 0;
+    font-weight: normal;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.main-page-wrapper {
+    background: url(../../img/content/hero/hero_pic.png) center top no-repeat, url(../../img/content/about-us/2.png) right bottom 165px no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1141px;
+}

@@ -1,0 +1,23 @@
+.icon {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.icon:before {
+    display: block;
+    content: "";
+    height: 26px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon_type_calendar:before {
+    width: 26px;
+    background-image: url(../../img/content/tours/calendar.png);
+}
+
+.icon_type_meal:before {
+    width: 36px;
+    background-image: url(../../img/content/tours/meal.png);
+}
