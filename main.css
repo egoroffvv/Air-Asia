@@ -11,8 +11,8 @@
 @import url(../CSS/blocks/logo.css);
 @import url(../CSS/blocks/news.css);
 @import url(../CSS/blocks/page-title.css);
-@import url(../CSS/blocks/paginator.css);
-@import url(../CSS/blocks/partners.css);
-@import url(../CSS/blocks/service-content.css);
-@import url(../CSS/blocks/top.css);
-@import url(../CSS/blocks/tours.css);
+@import url(../../../CSS/blocks/paginator.css);
+@import url(../../CSS/blocks/partners.css);
+@import url(./CSS/blocks/service-content.css);
+@import url(/CSS/blocks/top.css);
+@import url(CSS/blocks/tours.css);
