@@ -2,7 +2,7 @@
 @import url(CSS/blocks/about.css);
 @import url(CSS/blocks/breadcrumps.css);
 @import url(CSS/blocks/button.css);
-@import url(СSS/blocks/contacts.css);
+@import url(CSS/blocks/contacts.css);
 @import url(CSS/blocks/footer.css);
 @import url(CSS/blocks/general-menu.css);
 @import url(CSS/blocks/header.css);
@@ -14,5 +14,5 @@
 @import url(CSS/blocks/paginator.css);
 @import url(CSS/blocks/partners.css);
 @import url(CSS/blocks/service-content.css);
-@import url(/CSS/blocks/top.css);
+@import url(CSS/blocks/top.css);
 @import url(CSS/blocks/tours.css);
