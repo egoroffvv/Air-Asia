@@ -7,7 +7,7 @@ body {
     color: #fff;
     font-size: 16px;
     line-height: 1.42;
-    background: url(./img/bg/common.png);
+    background: url(../../img/bg/common.png);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smothing: grayscale;  
 }
