@@ -1,6 +1,6 @@
 .banner {
-    background: url(../../img/banner/couple.png) right 27% bottom 0 no-repeat,
-    url(../../img/banner/rectangle.png);
+    background: url(../../img/banner/couple.png) right 15% bottom 0 no-repeat,
+    url(../../img/banner/rectangle.png) right bottom / cover no-repeat;
     color: #FFFFFF;
     padding-top: 100px;
     padding-left: 0;

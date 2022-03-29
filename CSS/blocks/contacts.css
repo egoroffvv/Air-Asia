@@ -3,19 +3,50 @@
     text-align: right;
 }
 
-.contacts__desc {
-    color: #9A9A9A;
-    font-size: 11px;
-}
-
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
 }
 
-.contacts__dropdown-title {
+.outer {
+    position: relative;
+    min-width: 160px;
+    margin: 0 auto;
+}
+
+.outer:hover .dropdown {
+    display: block;
+}
+
+.outer-title {
     margin-top: -8px;
-    font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
+    cursor: pointer;
+}
+
+.dropdown {
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    margin-top: 7px;
+    left: 13%;
+    background: #CDD1D2;
+    color: #1E1F20;
+    font-weight: bold;
+    display: none;
+    align-items: center;
+
+}
+
+.dropdown::before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -30px;
+    position: absolute;
 }
