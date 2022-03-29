@@ -7,6 +7,8 @@
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
+    display: inline-block;
+    border: 0 solid transparent
 }
 
 .button:hover {
@@ -39,9 +41,10 @@
 .button_type_fourth {
     background: #8E8E8E;
     color: #fff;
+    border: 0 solid transparent
 }
 
 .button_type_fourth:hover {
-    background: 2B2B2B;
+    background: #2B2B2B;
     transition: 0.9s;
 }

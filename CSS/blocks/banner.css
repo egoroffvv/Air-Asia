@@ -1,0 +1,15 @@
+.banner {
+    background: url(../../img/banner/couple.png) right 27% bottom 0 no-repeat,
+    url(../../img/banner/rectangle.png);
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 0;
+    min-height: 363px;
+}
+
+.banner__content { 
+    display: flex;
+    max-width: 52%;
+    flex-direction: column;
+    justify-content: center;
+}

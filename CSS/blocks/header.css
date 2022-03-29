@@ -1,9 +1,8 @@
 .header {
-    height: 49px;
     margin-bottom: 156px;
     display: flex;
     justify-content: space-between;
-    padding-top: 42px;
+    padding-top: 25px;
     margin-bottom: 30px;
 }
 

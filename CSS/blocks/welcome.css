@@ -1,0 +1,28 @@
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(/img/bg/welcome.png) center bottom / cover no-repeat;
+}
+
+.centric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centric--asia {
+    opacity: 0;
+    animation: zoom .9s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.centric__text {
+    margin-bottom: 52px;
+}
+

@@ -21,3 +21,11 @@
     width: 36px;
     background-image: url(../../img/content/tours/meal.png);
 }
+
+.tours__title-pic {
+    position: relative;
+}
+
+.section-title__pic {
+    position: relative;
+}

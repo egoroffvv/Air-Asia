@@ -2,16 +2,6 @@
     margin-bottom: 124px;
 }
 
-.tours__title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 50px;
-}
-
-.tours__title-pic {
-    position: relative;
-}
-
 .tours__list {
     display: flex;
     justify-content: space-between;

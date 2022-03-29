@@ -16,3 +16,34 @@
 @import url(CSS/blocks/service-content.css);
 @import url(CSS/blocks/top.css);
 @import url(CSS/blocks/tours.css);
+@import url(CSS/blocks/forms.css);
+@import url(CSS/blocks/mark.css);
+@import url(CSS/blocks/section-title.css);
+@import url(CSS/blocks/review.css);
+@import url(CSS/blocks/banner.css);
+@import url(CSS/blocks/welcome.css);
+@keyframes zoom {
+    from {
+        transform:scale(.8)
+    }
+
+    20% {
+        transform: scale(1.25);
+    }
+
+    40% {
+        transform: scale(.8);
+    }       
+    60% {
+        transform: scale(1.2);
+    }
+
+    80% {
+        transform: scale(.9s);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

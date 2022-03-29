@@ -3,13 +3,7 @@
     color: #1A1B1E;
     height: 537px;
     padding-top: 86px;
-    
 }
-.partners__title {
-    font-size: 48px;
-    font-weight: bold;
-    padding-bottom: 66px;
- }
 
 .partners__list {
     display: flex;

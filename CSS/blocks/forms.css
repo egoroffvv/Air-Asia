@@ -1,0 +1,60 @@
+.forms {
+    background-color: #F4F5F5;
+    color: #1A1B1E;
+    padding: 62px 0 96px;
+}
+
+
+.form__group {
+    display: flex;
+    column-gap: 28px;
+    margin-bottom: 26px;
+}
+
+.forn__group:last-of-type {
+    margin: 0;
+}
+
+.form__use-cases {
+    display: flex;
+    row-gap: 9px;
+    column-gap: 14px;
+    flex-wrap: wrap;
+    max-width: 703px;
+    margin-left: auto;
+}
+
+.form__input {
+    background: #fff;
+    padding: 20px 30px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    outline: none;
+    flex: 1;
+}
+
+.form__input:focus {
+    border-color: #F5170E;
+}
+
+.form__input::placeholder {
+    border-color: #666666;
+}
+
+.form__input--type--feedback-field {
+    min-height: 235px;
+    resize: none;
+}
+
+.use-case__input {
+    appearance: none;
+}
+
+.use-case__input:checked ~ .use-case__mark {
+    background-color: #89eae4;
+}
+
+.form__buttons {
+    cursor: pointer;
+    margin-left: auto;
+}

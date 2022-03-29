@@ -19,7 +19,7 @@
     background: #01131d url(../../img/bg/headline.png) left 50% bottom 0 no-repeat;
     display: flex;
     flex-direction: column;
-    padding-bottom: 0px;
+    
 }
 
 .top-reviews__container {

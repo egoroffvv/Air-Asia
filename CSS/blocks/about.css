@@ -3,6 +3,12 @@
     color: #060606;
 }
 
+.about__container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
 .about__container:before,
 .about__desc {
     display: inline-block;
@@ -15,6 +21,9 @@
     width: 490px;
     height: 505px;
     background: url(../../img/content/about-us/gates.png) center center / cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .about__desc {
@@ -22,15 +31,9 @@
     padding: 64px 82px;
     width: 785px;
     min-height: 455px;
-    margin-left: -141px;
     margin-top: 99px;
+    position: relative;
 
-}
-
-.about__title {
-    font-weight: bold;
-    font-size: 36px;
-    margin-bottom: 40px;
 }
 
 .about__text {
@@ -41,6 +44,6 @@
     margin-bottom: 0;
 }
 
-.about_button {
+.about__button {
     margin-top: auto;
 }

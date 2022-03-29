@@ -1,0 +1,17 @@
+.mark {
+    background: #E7E7E7;
+    border-radius: 35px;
+    color: #1A1B1E;
+    padding: 10px 15px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.use-case__mark {
+    cursor: pointer;
+}
+
+.review__mark {
+    background-color: #89eae4;
+}
+
