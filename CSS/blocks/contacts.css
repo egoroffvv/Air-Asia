@@ -22,7 +22,6 @@
     margin-top: -8px;
     text-decoration: underline;
     color: #98A4A8;
-    cursor: pointer;
 }
 
 .dropdown {
@@ -37,7 +36,7 @@
     color: #1E1F20;
     font-weight: bold;
     display: none;
-    align-items: center;
+    cursor: pointer;
 
 }
 
